@@ -1,0 +1,9 @@
+<div class="store-header">   
+     <img src="https://i.ibb.co/cy9Yqfv/1200px-Svg-portrait-Immanuel-Kant-svg.png" />
+    <h3>Our Store</h3>
+</div>
+<section class="books-section">
+    <ul *ngFor="let book of books">
+        <app-bookview [singleBook]="book"></app-bookview>
+    </ul>
+</section>

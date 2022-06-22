@@ -1,0 +1,25 @@
+li {
+    list-style: none;
+}
+
+img {
+    width: 100px;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+button {
+    color: white;
+    border: none;
+    background-color: black;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}

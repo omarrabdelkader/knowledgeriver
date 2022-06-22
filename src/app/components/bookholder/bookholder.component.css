@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+.books-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin-left: 190px;
+}
+
+.store-header {
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-bottom: 100px;
+    border-bottom: 5px solid black;
+    margin-right: 35px;
+}
+
+img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 40px;
+}
