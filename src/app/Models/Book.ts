@@ -5,6 +5,8 @@ export class Book {
   author: string;
   description: string;
   genre: string;
+  quantity: number;
+  price: number;
 
   constructor() {
     this.id = 1;
@@ -13,5 +15,7 @@ export class Book {
     this.title = '';
     this.author = '';
     this.description = '';
+    this.quantity = 1;
+    this.price = 1;
   }
 }

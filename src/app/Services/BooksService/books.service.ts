@@ -13,6 +13,8 @@ export class BooksService {
       author: 'Fyodor Dostoevsky',
       description: '',
       genre: 'Philosophical Fiction',
+      price: 230,
+      quantity: 1,
     },
     {
       id: 2,
@@ -21,6 +23,8 @@ export class BooksService {
       author: 'ويل ديورنت',
       description: '',
       genre: 'Biography',
+      price: 120,
+      quantity: 1,
     },
     {
       id: 3,
@@ -29,6 +33,8 @@ export class BooksService {
       author: 'Albert Camus',
       description: '',
       genre: 'Philosophical Fiction',
+      price: 16,
+      quantity: 1,
     },
     {
       id: 4,
@@ -37,6 +43,8 @@ export class BooksService {
       author: 'Victor Hugo',
       description: '',
       genre: 'Historical Fiction',
+      price: 250,
+      quantity: 1,
     },
     {
       id: 5,
@@ -45,6 +53,8 @@ export class BooksService {
       author: 'Leo Tolstoy',
       description: '',
       genre: 'Historical Fiction',
+      price: 270,
+      quantity: 1,
     },
     {
       id: 6,
@@ -53,6 +63,8 @@ export class BooksService {
       author: 'نيتشة',
       description: '',
       genre: 'Philosophical Fiction',
+      price: 75,
+      quantity: 1,
     },
     {
       id: 7,
@@ -62,6 +74,8 @@ export class BooksService {
       description:
         "Hamlet is melancholy, bitter, and cynical, full of hatred for his uncle's scheming and disgust for his mother's sexuality. A reflective and thoughtful young man who has studied at the University of Wittenberg, Hamlet is often indecisive and hesitant, but at other times prone to rash and impulsive acts.",
       genre: 'Drama',
+      price: 220,
+      quantity: 1,
     },
     {
       id: 8,
@@ -71,6 +85,8 @@ export class BooksService {
       description:
         'The Critique of Pure Reason was a critique of the pretensions of pure theoretical reason to attain metaphysical truths beyond the ken of applied theoretical reason. Its conclusion was that pure theoretical reason must be restrained, because it produces confused arguments when applied outside its sphere.',
       genre: 'Non-Fiction',
+      price: 400,
+      quantity: 1,
     },
     {
       id: 9,
@@ -80,6 +96,8 @@ export class BooksService {
       description:
         "Durant writes the Story of Philosophy to provide a personal dimension to the study of philosophy. The author's goal for the book is to humanize the knowledge of speculative thought via selected dominant philosophers. He writes as an objective historian of personal facts, stories and philosophies of these philosophers.",
       genre: 'Biography',
+      price: 200,
+      quantity: 1,
     },
     {
       id: 10,
@@ -89,6 +107,8 @@ export class BooksService {
       description:
         'ول كتاب له عن أفكاره هو لا عن أفكار الفلاسفة التي شغل بها من قبل. وتحدث فيه عن وجود العقل ونقد العقل ومشكلات الشك واليقين والعقل وما بعد الطبيعة والحق والباطل والمقارنة بين المعنى والصورة ورفض ما يراه "الحسيون" من إنكار وجود المعاني والاختصار على الحسيات، وناقش حجج الشكاك منذ فلاسفة اليونان حتى عصرنا الحاضر ودافع عن الحقيقة لأن وجود الخطأ دليل على وجود الحقيقة. ويدافع عن علم ما بعد الطبيعة وهو ضروري لأنه كلي وأوضح "كرم " أن مذهبة الفلسفي يتسم باليقين والإيمان.',
       genre: 'Philosophical Non-Fiction',
+      price: 70,
+      quantity: 1,
     },
     {
       id: 11,
@@ -98,6 +118,8 @@ export class BooksService {
       description:
         'The Alchemist is a classic novel in which a boy named Santiago embarks on a journey seeking treasure in the Egyptian pyramids after having a recurring dream about it and on the way meets mentors, falls in love, and most importantly, learns the true importance of who he is and how to improve himself.',
       genre: 'Philosophical Fiction',
+      price: 170,
+      quantity: 1,
     },
     {
       id: 12,
@@ -107,6 +129,8 @@ export class BooksService {
       description:
         'The novel portrays the life of convicts in a Siberian prison camp. It is generally considered to be a fictionalised memoir; a loosely-knit collection of experiences, events and philosophical discussion',
       genre: 'Philosophical Fiction',
+      price: 400,
+      quantity: 1,
     },
   ];
   constructor() {}

@@ -15,6 +15,8 @@ export class BookviewComponent implements OnInit {
     author: '',
     img: '',
     genre: '',
+    price: 1,
+    quantity: 1,
   };
 
   constructor(private cartService: CartService) {}
@@ -24,5 +26,9 @@ export class BookviewComponent implements OnInit {
   AddCart(singleBook: Book) {
     this.cartService.getCartStorage().push(singleBook);
     window.alert(`${singleBook.title} has been added to your cart!`);
+  }
+
+  IncQuantity(singleBook: Book) {
+    singleBook.quantity += 1;
   }
 }
